@@ -33,3 +33,6 @@ If there are any improvements to this repository, I would appreciate it if you c
 
 ## Author
 Teppei Sudo (https://github.com/sp-yduck)
+
+## LICENSE
+MIT License
