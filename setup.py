@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-from setuptools.command.install import install
+from setuptools_scm import get_version
 
 readme = open('README.md').read()
 
-VERSION = '0.1.0-alpha'
+VERSION = get_version(root='..', relative_to=__file__)
 
 setup(
     # Metadata
@@ -22,7 +22,8 @@ setup(
 
     #
     zip_safe=True,
-    #nstall_requires=requirements,
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
 
     # Classifiers
     classifiers=[
