@@ -1,0 +1,1 @@
+from splatpy2.auth import SplatpyAuth
