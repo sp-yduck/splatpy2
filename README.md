@@ -8,11 +8,9 @@ Splatpy2 is a lightweight Python SDK for the Splatoon2 Web API.
 
 ## Installation
 ```bash
-git clone https://github.com/sp-yduck/splatpy2.git
-cd splatpy2
-pip install -r requirements.txt
+pip install splatpy2
 ```
-now you can use this package.
+That's it. Now you can use this package!!
 
 <!-- ## How to use -->
 
